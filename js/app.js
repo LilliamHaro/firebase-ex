@@ -23,7 +23,7 @@ $(document).ready(function() {
   firebase.auth().onAuthStateChanged(function(user) {
     // si el usuario esta activo
     if (user) {
-      window.location.href = '../views/perfil.html';
+      window.location.href = 'views/perfil.html';
     } else {
       console.log('usuario no logeado');
     }
