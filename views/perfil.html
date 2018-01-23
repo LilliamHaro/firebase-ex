@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <!--Import bootstrap css-->
+  <link type="text/css" rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.css" />
+  <!-- main.css-->
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <title></title>
+  </head>
+  <body class="body">
+    <div class="container-fluid">
+      <div class="row bg-pink">
+        <div class=" col-md-12 padding-15">
+            <button  class="button button-out float-rigth" id="out" type="button" name="button">Salir</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 bg-purple padding-botton-25">
+          <div id="name"class="name"></div>
+          <div id="icon" class="icon">
+            <img src="" alt="">
+          </div>
+          <div id="email" class="email"></div>
+          <div id="description"class="text-center bold description padding-botton-25"></div>
+          <p id="show-change-description" class="text-center ">editar descripcion</p>
+          <div id="change-description"class="">
+            <input id="newDescription" type="text" name="" value="">
+            <button id="user-description-button" type="button" name="button"> update description</button>
+          </div>
+          <div id="description" class=""></div>
+        </div>
+        <div class="col-md-8 padding-top-35">
+          <textarea class="mg-left-15-per width-70 " id="textarea-post" name="name" rows="8" cols="80"></textarea>
+          <div class="heigth-50 width-70 mg-left-15-per">
+            <input class="float-left" id="image-post" type="file" name="" value="">
+            <button class="float-rigth button-post" id="button-post"type="button" name="button">postear</button>
+          </div>
+          <div id="publicado"class="publicado"></div>
+        </div>
+      </div>
+    </div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+  <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../js/app2.js"></script>
+  </body>
+</html>
